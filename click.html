@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Team Page</title>
+</head>
+<body>
+  <h1>Our Team</h1>
+
+  <div class="team-container">
+    <div class="team-member">
+      <div class="member-image" onclick="showDetails(this)">
+<div class="glow-effect"></div>
+        <img src="hi.jpg" alt="User 1">
+      </div>
+      <div class="member-details">
+        <h2>User 1</h2>
+        <p>Position: Software Engineer</p>
+        <p>Experience: 5 years</p>
+        <p>About: cs </p>
+        <span class="close-icon" onclick="hideDetails(this)">&times;</span>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <div class="member-image" onclick="showDetails(this)">
+<div class="glow-effect"></div>
+        <img src="hi.jpg" alt="User 2">
+      </div>
+      <div class="member-details">
+        <h2>User 2</h2>
+        <p>Position: UI/UX Designer</p>
+        <p>Experience: 3 years</p>
+        <p>About: cs </p>
+        <span class="close-icon" onclick="hideDetails(this)">&times;</span>
+      </div>
+    </div>
+
+    <!-- Add more team members here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
